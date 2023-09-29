@@ -1,0 +1,118 @@
+html{
+    width: 100%;
+    clear: both;
+}
+
+#header {
+    width: 100%;
+    background: gray;
+    padding: 10px;
+}
+
+section{
+    width: 100%;
+    margin-bottom: 100px;
+}
+
+#main-content{
+
+}
+
+h1{
+    text-align: center;
+    font-size: 30px;
+    font-weight: 900;
+} 
+
+nav li {
+    list-style: none;
+    display: inline-block;
+    padding: 5px;
+}
+
+nav li a{
+    color: white;
+
+}
+
+nav li a:hover{
+    color: #d1ddfb;
+    
+}
+
+.image-holder{
+    width: 100%;
+    float: left;
+}
+
+
+
+.paragraph-holder{
+    width: 100%;
+    float: right;
+}
+
+img.jerome-dp{
+    width:100%;
+    max-width: 600px;
+    height: auto;
+    border:1px solid #c4c4c4;
+    border-radius: 3px 3px 3px 3px;
+}
+
+.youtube{
+    width: 100%;
+    clear: both;
+}
+
+.link-button{
+    font-family: "Roboto";
+    font-size: 16px;
+    font-weight: 500;
+    text-transform: capitalize;
+    letter-spacing: 0.5px;
+    background-color: #F24517;
+    padding: 15px 25px 15px 25px;
+    border-radius: 3px;
+    color: white;
+    text-decoration: none;
+    display: inline-block;
+}
+
+button{
+    font-family: "Roboto";
+    font-size: 16px;
+    font-weight: 500;
+    text-transform: capitalize;
+    letter-spacing: 0.5px;
+    background-color: #173cf2;
+    padding: 15px 25px 15px 25px;
+    border-radius: 3px;
+    color: white;
+    text-decoration: none;
+    border: 0px;
+}
+
+button a{
+    color:#ffffff;
+}
+
+/*Css for Table*/
+table{
+    border-collapse: collapse;
+    width: 500px;
+    border: 1px solid gray;
+}
+
+table thead{
+    background: #5e76ed;
+    color: white;
+}
+
+tr{
+
+}
+
+td{
+    border: 1px solid #e1e1e1;  
+}
